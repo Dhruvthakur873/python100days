@@ -40,3 +40,9 @@ rate = float(input("Enter rate of interest: "))
 time = float(input("Enter time (in years): "))
 
 print(simpleInterest(principal,rate,time))
+# tell given input is four digit number or not 
+n = int (input("Enter a number"))
+if n>999:
+    print("Yes the number is four digit number")
+else:
+    print("no it is not four digit number")
